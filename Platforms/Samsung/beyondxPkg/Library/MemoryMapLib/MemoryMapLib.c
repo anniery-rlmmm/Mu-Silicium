@@ -8,8 +8,8 @@ gMemoryDescriptor[] = {
   // DDR Regions
   {"EL2 Code",           0x87000000, 0x00200000, AddMem, SYS_MEM, SYS_MEM_CAP, BsCode, WRITE_BACK},
   {"UEFI FD",          0xC9000000, 0x00E00000, AddMem, SYS_MEM, SYS_MEM_CAP, BsData, WRITE_BACK},
-  {"UEFI Stack",       0xC9E00000, 0x00040000, AddMem, SYS_MEM, SYS_MEM_CAP, BsData, WRITE_BACK},
-  {"DXE Heap",         0xCB400000, 0x03C00000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK},
+  {"UEFI Stack",       0xC9E00000, 0x00100000, AddMem, SYS_MEM, SYS_MEM_CAP, BsData, WRITE_BACK},
+  {"DXE Heap",         0xCB400000, 0x08000000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK},
   {"Display Reserved", 0xCA000000, 0x01400000, AddMem, MEM_RES, SYS_MEM_CAP, Reserv, WRITE_THROUGH},
   {"XNU Payload",      0xF0000000, 0x04000000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,      WRITE_BACK},
 
