@@ -86,9 +86,9 @@ FILE APPLICATION = A1B2C3D4-E5F6-4789-ABCD-1234567890AB {
   SECTION PE32 = Platforms/Samsung/beyondxPkg/Binaries/loader.efi
   SECTION UI = "XNU Loader"
 }
-  FILE FREEFORM = 7E8F9A0B-1C2D-3E4F-5A6B-7C8D9E0F1A2B {
-  SECTION RAW = beyondxPkg/Binaries/payload.bin
-}
+#  FILE FREEFORM = 7E8F9A0B-1C2D-3E4F-5A6B-7C8D9E0F1A2B {
+#    SECTION RAW = beyondxPkg/Binaries/payload.bin
+#  }
 
   # RAM Manager
   INF SiliciumPkg/Drivers/RamManagerDxe/RamManagerDxe.inf
